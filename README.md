@@ -12,4 +12,5 @@ Minha primeira página em HTML de um negócio de café
 - form com radio buttons e input de texto<br>
 
 
-! [coffe page](https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop/blob/main/Screenshot.png)
+! [coffe page](https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop/blob/main/Screenshot.png?raw=true)
+
