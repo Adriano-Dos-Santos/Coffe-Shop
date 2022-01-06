@@ -12,4 +12,4 @@ Minha primeira página em HTML de um negócio de café
 - form com radio buttons e input de texto<br>
 
 
-<img src="screenshot.png">
+! [coffe page][Screenshot.png]
