@@ -7,6 +7,7 @@
     <meta name="description" content="Site feito para aplicar os primeiros conhecimentos de html aprendidos por mim, um site de uma loja de cafe.">
     <title>Starbuzz</title>
     <link rel="icon" type="image" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
@@ -30,9 +31,15 @@
     <main>
         <dl>
         <section>
-            <dt><h3 tipo="tipo de cafe" id="cafe1"><em>House Blend</em>   $1.49</h3></dt>
-            <img src="images/coffee-1.jpg" height="450" width="800" alt="image here">
-            <dd>A smooth, mild blend of coffees from Mexico, Bolivia and Guatemala</dd>
+            <h3 tipo="tipo de cafe" id="cafe1"><em>House Blend</em>   $1.49</h3>
+            
+            <img src="images/medium/coffee-1.jpg"
+              srcset="images/medium/coffee-1.jpg 1220w, 
+                      images/small/coffee-1 820w"
+            
+                alt="image here">
+
+            <p>A smooth, mild blend of coffees from Mexico, Bolivia and Guatemala</p>
         </section>
 
         <section>
