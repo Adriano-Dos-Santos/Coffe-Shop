@@ -1,0 +1,27 @@
+body {
+    background-color: #FEE9CE;
+    margin-left: 17%;
+    margin-right: 17%;
+    border: 2px dotted black;
+    padding: 10px 10px 10px;
+    font-family: sans-serif;
+}
+h1 {
+    color: rgb(160, 145, 117)
+}
+h1:hover {
+    color: rgb(201, 183, 151)
+}
+
+h2, h3 {
+    color: #A38978;
+}
+
+p {
+    color: #6A5849;
+}
+
+
+nav a {
+    color: #A38978; 
+}
