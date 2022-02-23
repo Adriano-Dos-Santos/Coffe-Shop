@@ -1,27 +1,47 @@
 body {
     background-color: #FEE9CE;
+    background-image: linear-gradient(to bottom, #FEE9CE,#ffecb3);
     margin-left: 17%;
     margin-right: 17%;
-    border: 2px dotted black;
+    border: 2.2px dotted black;
     padding: 10px 10px 10px;
     font-family: sans-serif;
 }
 h1 {
-    color: rgb(160, 145, 117)
+    color: rgb(160, 145, 117);
 }
+h1 {
+    font-size: 52px;
+    background: -webkit-linear-gradient(rgb(204, 191, 158), rgb(152, 146, 127));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h1:hover {
-    color: rgb(201, 183, 151)
+    color: rgb(201, 183, 151);
+    font-size: 52px;
+    background: -webkit-linear-gradient(rgb(245, 229, 189), rgb(214, 203, 161));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 
 h2, h3 {
     color: #A38978;
 }
 
 p {
-    color: #6A5849;
+    color: #AA9685;
+    padding: 4px;
+    margin: 3px;
 }
-
 
 nav a {
     color: #A38978; 
+}
+
+.buttom {
+    background-color: none;
+    border: none;
+    
 }
