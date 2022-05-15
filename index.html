@@ -1,108 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Adriano Dos Santos">
-    <meta name="description"
-        content="Site feito para aplicar os primeiros conhecimentos de html aprendidos por mim, um site de uma loja de cafe.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Adriano Dos Santos" />
+    <meta
+      name="description"
+      content="Site feito para aplicar os primeiros conhecimentos de html aprendidos por mim, um site de uma loja de cafe."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Starbuzz</title>
-    <link rel="icon" type="image" href="favicon.png">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image" href="favicon.png" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <header>
-        <h1 >Starbuzz</h1>
-        
-        <div>
-            <p> Welcome to Starbuzz here are our <em>menu</em></p>
-            <p>come to see our <a href="mission.html">mission</a> </p>
-        </div>
+      <div class="parent_icon-header child">
+        <img class="icon" src="images/icons8-starbucks.svg" alt="" />
+        <h1>Starbuzz</h1>
+      </div>
 
-        <h2>Menu</h2>
+      <nav class="navbar child">
+        <a href="#"> Trending </a>
+        <a href="#"> Rewards </a>
+        <a href="#"> Gift Cars </a>
+        <a href="#"> Reserve</a>
+        <a href="#"> Delivery</a>
+      </nav>
 
-        <nav>
-            <a href="#cafe1"> House Blend </a><br>
-            <a href="#cafe2"> Mocha Cafe Latte </a><br>
-            <a href="#cafe3"> Cappuccino </a><br>
-            <a href="#cafe4"> Chai Tea </a><br>
-        </nav>
+      <!--SEache bar here-->
+      <div class="parent_input-icon">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <a class="shopping-icon_a child" href="#"> </a>
+      </div>
     </header>
 
     <main>
-
-        <div>
-            <h3><em>House Blend</em> $1.49</h3>
-
-            <img srcset="images/coffee-1-820px.jpg 820w,       
-                      images/coffee-1-1220px.jpg 1220w" 
-                      sizes="(max-width: 1000px) 820px,
-                     1220px" 
-                     src="images/coffee-1-1220px.jpg" 
-                     height="360" width="550" 
-                     alt="a good House Blend">
-
-            <p>A smooth, mild blend of coffees from Mexico, Bolivia and Guatemala</p>
-
+      <section class="section-1">
+        <div class="left-block">
+          <h1 class="left-block_h1">Midnight Frappuccino</h1>
+          <p class="left-block_p">
+            The Midnight Mint Mocha Frappuccino features extra dark cocca
+            blended with Frappuccino Roast coffee.
+          </p>
+          <p class="left-block_price">$ 8.60</p>
+          <a class="left-block_button" href="#">Buy Now</a>
         </div>
-
-
-        <div class="cafe2">
-            <h3 class=""><em>Mocha Cafe Latte</em>, $2.35</h3>
-
-            <img srcset="images/coffee-2-820px.jpg 820w,
-                   images/coffee-2-1220px.jpg 1220w" 
-                   sizes="(max-width: 1000px) 820px,
-                   1220px" 
-                   src="images/coffee-2-1220px.jpg" 
-                   height="360" width="550" 
-                   alt="a good Mocha Cafe Latte">
-
-            <p class="">Espresso, steamed milk and chocolate syrup.</p>
-
-        </div>
-
-
-        <div class="cafe3">
-            <h3 class="cafe3"><em>Cappuccino</em>, $1.89</h3>
-
-            <img srcset="images/coffee-3-820px.jpg 820w,
-                    images/coffee-3-1220px.jpg 1220w" 
-                    sizes="(max-width: 1000px) 820px,
-                    1220px" 
-                    src="images/coffee-3-1220px.jpg" 
-                    height="360" width="550" 
-                    alt="A good Cappuccino">
-
-            <p class="cafe3">A mixture of espresso, steamed milk and foam.</p>
-
-        </div>
-
-        <div class="cafe4">
-            <h3 class="cafe4"><em>Chai Tea</em>, $1.85</h3>
-
-            <img srcset="images/coffee-4-820px.jpg 820w,
-                    images/coffee-4-1220px.jpg 1220w" 
-                    sizes="(max-width: 1000px) 820px,
-                    1220px" 
-                    src="images/coffee-4.jpg" 
-                    height="330" width="550" 
-                    alt="A good Chai Tea">
-
-            <p class="cafe4">A spicy drink made with black tea, spices, milk and honey</p>
-
-        </div>
-
+        <img
+          class="center-image"
+          src="images/starbucks.png"
+          alt="startbucks cup"
+        />
+        <aside class="right-block">
+          <div class="right-block_images">
+            <img
+              class="right-image"
+              src="images/003-chocolate.png"
+              alt="cup icon"
+            />
+            <img class="right-image" src="images/001-donut.png" alt="" />
+            <img class="right-image" src="images/002-cookie.png" alt="" />
+          </div>
+          <div class="right-block_content">
+            <h3>Sippy cups</h3>
+            <p>Are the New Norm for iced coffe</p>
+            <h3>Donut</h3>
+            <p>Have a donut with the frappuccino</p>
+            <h3>Cookies</h3>
+            <p>Enjoy our sugar free cookies</p>
+          </div>
+        </aside>
+      </section>
     </main>
-
-    <a class="button" href="#tittle">Return to top</a>
-
-    <footer>
-        <p>site feito por <strong>Adriano</strong></p>
-    </footer>
-</body>
-
+  </body>
 </html>
