@@ -12,10 +12,10 @@ html {
   height: 100vh;
 }
 body {
-  heigh: 100%;
-  background-color: rgb(222, 203, 197);
+  height: 100%;
+  background-color: rgb(6, 8, 3);
+  color: rgb( 254, 233, 206);
 }
-
 h1 {
   font-size: 2.4rem;
 }
@@ -26,8 +26,6 @@ p,
 a,
 li {
   font-size: 1.7rem;
-}
-* {
 }
 /* HEADER */
 header {
@@ -42,10 +40,15 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1.7rem;
+  width: 15%;
+}
+.parent_icon_header h1 {
+  font-size: 3rem;
 }
 
 .icon {
   width: 100px;
+  background-image: url(images/);
 }
 
 nav {
@@ -54,8 +57,8 @@ nav {
 }
 a {
   text-decoration: none;
-  color: black;
-  font-size: 1.4rem;
+  color: rgb( 254, 233, 206);
+  font-size: 1.6rem;
   font-weight: 550;
 }
 .parent_input-icon {
@@ -94,8 +97,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 7rem 6rem;
+  flex-wrap: nowrap;
+  margin: 7rem 6rem 0 6rem;
 }
 
 .left-block_h1 {
@@ -132,12 +135,7 @@ a {
 .center-image {
 width: 53rem;
 }
-.center-image::before {
-  content: "a";
-  height: 100px;
-  width: 100px;
-  background-color: pink;
-}
+
 .right-block {
   display: flex;
   flex-flow: row;
@@ -177,4 +175,58 @@ width: 53rem;
 .right-block_content p {
   font-size: 1.4rem;
   line-height: 1.6;
+}
+
+/* Section-2 */
+* {
+}
+
+.section-2 {
+  display: flex;
+  gap: 2%;
+  margin: 3% 5.5%;
+  height: 100%;
+}
+.section-2_article {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 33.3%;
+  height: 52vh;
+}
+.article-1 img,
+.article-2 img {
+  max-width: 100%;
+  border-radius: 2.5px;
+}
+
+.article-1 h2,
+.article-2 h2{
+  font-size: 2.2rem;
+}
+.article-1 p,
+.article-2 p {
+  line-height: 1.6;
+  font-size: 1.72rem;
+}
+
+.article-1 {
+  background-image: url(images/wifi.jpg);
+  background-repeat: no-repeat;
+  background-size: 44%;
+  background-position: 90% 100%;
+}
+
+.article-2 a {
+  color: rgb(200,160,100);
+  font-size: 1.7rem;
+}
+.article-2 a::after {
+  content: "--->";
+  padding-left: 14px;
+
+}
+
+.article-3 {
+  border: 0.1px solid rgb(41,41,41);
+
 }
