@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "prettier": "^2.6.2",
-    "vscode-css-languageserver-bin": "^1.4.0"
-  }
-}
