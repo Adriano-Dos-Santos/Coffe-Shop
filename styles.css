@@ -18,9 +18,11 @@ body {
 }
 h1 {
   font-size: 2.4rem;
+  font-family: norwester;
 }
 h2 {
   font-size: 3rem;
+  font-family: norwester;
 }
 p,
 a,
@@ -260,7 +262,6 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1 1 33.3%;
-  height: 52vh;
 }
 .article-1 img,
 .article-2 img {
@@ -293,14 +294,61 @@ font-size: 2.0rem;
   padding-left: 14px;
 }
 
+
 .article-3 {
   border: 0.1px solid rgb(41,41,41);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 81%;
 }
 
 .article-3 h2 {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
+  margin: 3rem 0;
+}
+.article-3 h2,
+.article-3 p,
+.article-3_table {
+ padding: 0 9%;
+}
+.article-3_table {
+  table-layout: fixed;
 }
 
-.article-3 th {
-  font-size: rem;
+.article-3_table th,
+.article-3_table td {
+  padding: 12px 0;
+  letter-spacing: 0.3px;
+}
+
+.article-3_table th {
+  font-size: 2.3rem;
+  font-family: norwester;
+  width: 40%;
+  text-align: left;
+}
+.article-3_table td {
+  font-size: 2rem;
+  text-align: right;
+  padding-right: 4%;
+}
+.article-3_table_tfoot td {
+  font-family: norwester;
+  color: rgb(200,160,100);
+  font-size: 2.3rem;
+}
+
+
+.article-3 address {
+  margin: 2rem 0; 
+}
+.article-3 p {
+  font-size: 2rem;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+table * {
+  /* outline: 1px solid yellow; */
 }
