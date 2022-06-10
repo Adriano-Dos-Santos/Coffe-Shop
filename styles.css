@@ -112,6 +112,8 @@ main {
   "... ... ..."
   "... ... ..."
   "... ... ...";
+
+  grid-row-gap: 5rem;
 }
 
 .section-1 {
@@ -155,9 +157,8 @@ main {
 }
 
 .center-image {
-  width: 53rem;
+  max-width: 100%;
   position: relative;
-  left: -7%;
 }
 
 
@@ -176,7 +177,7 @@ main {
 .right-image{
    width: 5rem;
    padding: 10px;
-   background-color: white;
+   background-color:  rgb( 254, 233, 206);
    border-radius: 50px;
    margin-top: 1rem;
    margin-left: 3rem;
@@ -214,7 +215,6 @@ main {
 .divisor {
   grid-area: divisor;
   width: 100%;
-  margin: 20px 0;
   display: flex;
   justify-content: center;
 }
@@ -238,7 +238,7 @@ main {
 .divisor_container::before,
 .divisor_container::after {
   content: " ";
-  border-top: 1px solid orange;
+  border-top: 1px solid  rgb( 254, 203, 106);
   height: 1px;
   width: 25%;
 }
@@ -255,28 +255,34 @@ main {
   grid-area: section-2;
   display: flex;
   gap: 2%;
-  margin: 3% 5.5%;
+  margin: 0 5.5%;
   height: 100%;
 }
 .section-2_article {
   display: flex;
   flex-direction: column;
   flex: 1 1 33.3%;
+  border-radius: 10px;
 }
 .article-1 img,
 .article-2 img {
   max-width: 100%;
   border-radius: 2.5px;
 }
+
 .article-1_wifi-icon {
-  width: 39%;
+  width: 34%;
   align-self: flex-end;
-  margin-top: 4rem;
+  margin-top: 0rem;
+  margin-right: 2rem;
+  display: inline;
 }
 
 .article-1 h2,
 .article-2 h2{
-font-size: 2.0rem;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+
 }
 .article-1 p,
 .article-2 p {
@@ -301,6 +307,19 @@ font-size: 2.0rem;
   flex-direction: column;
   justify-content: space-around;
   height: 81%;
+  position: relative;
+}
+.article-3::before {
+  content: "";
+  position: absolute;
+  background-image: url(images/coffe_6_medium.jpg);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  filter: grayscale(1) brightness(0.15);
+  z-index: -1;
 }
 
 .article-3 h2 {
@@ -331,7 +350,6 @@ font-size: 2.0rem;
 .article-3_table td {
   font-size: 2rem;
   text-align: right;
-  padding-right: 4%;
 }
 .article-3_table_tfoot td {
   font-family: norwester;
@@ -347,8 +365,8 @@ font-size: 2.0rem;
   font-size: 2rem;
   font-style: normal;
   letter-spacing: -1px;
+  color: rgb(200, 160, 100);
 }
 
 table * {
-  /* outline: 1px solid yellow; */
 }
