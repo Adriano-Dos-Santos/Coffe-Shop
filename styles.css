@@ -41,6 +41,9 @@ header {
   margin-top: 2rem;
 }
 
+header * {
+   outline: 2.5px solid red;
+}
 .parent_icon-header {
   display: flex;
   justify-content: center;
@@ -53,11 +56,11 @@ header {
 }
 
 .icon {
-  width: 100px;
+  max-width: 50%;
   background-image: url(images/);
 }
 
-nav {
+.navbar {
   display: flex;
   gap: 3.5rem;
 }
@@ -76,11 +79,10 @@ a {
 }
 .search-bar {
   width: 18rem;
-  height: 4.6rem;
+  height: 3em;
   padding-left: 5.3rem;
   border-radius: 25px;
   border: none;
-  box-shadow: 0px 20px 230px;
   background-image: url("images/loupe.svg");
   background-repeat: no-repeat;
   background-size: 2.4rem;
@@ -101,9 +103,27 @@ a {
   border-radius: 50px;
 }
 
-/* MAIN */
-main  * {
+
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  .navbar {
+    gap: 1.3em;
+    flex-direction: column;
+  }
+  .parent_input-icon {
+    justify-content: center;
+
+  }
+  .search-bar {
+    width: 5em;
+  }
 }
+
+/* MAIN */
+main  * {}
 
 main {
   display: grid;
@@ -149,11 +169,13 @@ main {
   display: block;
   width: 130px;
   height: 55px;
+  font-size: 1.7rem;
   text-align: center;
   line-height: 55px;
   border-radius: 50px;
   padding: 5px 40px 5px 10px;
-  background-color: rgb(200,160,100);
+  color: #000;
+  background-color: rgb( 254, 233, 206);
   background-image: url(images/play-button.svg);
   background-repeat: no-repeat;
   background-position: 84%;
@@ -360,10 +382,10 @@ main {
   font-size: 2.3rem;
 }
 
-
 .article-3 address {
   margin: 2rem 0;
 }
+
 .article-3 p {
   font-size: 2rem;
   font-style: normal;
@@ -371,5 +393,3 @@ main {
   color: rgb(200, 160, 100);
 }
 
-table * {
-}
