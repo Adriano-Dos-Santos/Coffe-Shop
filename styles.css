@@ -7,6 +7,8 @@
 
 * {
   font-size: 10px;
+  margin: 0;
+  padding: 0;
 }
 html {
   height: 100vh;
@@ -55,7 +57,11 @@ header {
 .icon {
   max-width: 50%;
 }
-
+.burger-menu {
+  display: none;
+  font-size: 3.5rem;
+  cursor: pointer;
+}
 .navbar {
   display: flex;
   gap: 3.5rem;
@@ -100,11 +106,13 @@ a {
 }
 
 
-@media screen and (max-width: 1068px) and (min-width: 700px) {
+@media screen and (max-width: 66.75em) and (min-width: 53.4375em) {
   header {
     flex-wrap: wrap;
+    margin-top: 0;
+    background-color: rgb(6,8,3);
+    border-bottom: 3px solid rgb(254,233,206);
     justify-content: center;
-    margin: 0;
   }
   .parent_icon-header {
     flex-basis: 60%;
@@ -112,18 +120,25 @@ a {
     
   }
   .icon {
-    max-width: 15%;
+    max-width: 18%;
+
   }
   .navbar {
-    flex-shrink: 1;
-    flex-grow: 0;
-    flex-basis: 60%;
+    flex-shrink: ;
+    flex-grow: ;
+    flex-basis: 80%;
+    margin: 1em auto;
     order: 1;
-    margin: 0 auto 0 6em;
     
   }
   .navbar a {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    flex-shrink: 0;
+    width: max-content;
+    font-weight: 600;
+    color:rgb(258, 233, 203);
+
+    padding: 0 1em;
   }
   
   .parent_input-icon {
@@ -143,6 +158,83 @@ a {
     background-position: 24% 50%;
    }
 }
+@media screen and (max-width: 53.43em) and (min-width: 35em) {
+
+    header {
+      margin-top: 0;
+      background-color: rgb(6,8,3);
+      justify-content: space-between;
+      border-bottom: 3px solid rgb(254,233,206);
+    }
+    .parent_icon-header {
+      flex: 2;
+      justify-content: flex-start;
+      padding: 1em 0 1em 1em;
+    }
+    .icon {
+      min-width: 80px;
+      max-width:22%;
+    }
+    .parent_input-icon {
+      flex: 1;
+      justify-content: flex-end;
+      margin-right: 1.2em;
+    }
+    .burger-menu {
+      display: block;
+      
+    }
+
+    .navbar {
+      display: none;
+    }
+    .search-bar {
+      flex-shrink: 1;
+      flex-grow: 0;
+      max-width: 30%;
+      padding-left:1em;
+      text-align: center; 
+      background-image: url("images/loupe.svg");
+      background-repeat: no-repeat;
+      background-size: 13.4%;
+      background-position: 20% 50%;
+    }
+
+}
+
+@media screen and (max-width: 34.937em) {
+ 
+  header {
+    margin-top: 0;
+    background-color: rgb(6,8,3);
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(254,233,206);
+  }
+  .parent_icon-header {
+    justify-content: flex-start;
+    padding: 1em 0 1em 1em;
+  }
+  .icon {
+    min-width: 70px;
+    max-width:20%;
+  }
+  .parent_input-icon {
+    justify-content: flex-end;
+    margin-right: 3em;
+    flex-grow: 1;
+  }
+  .burger-menu {
+    display: block;
+  }
+
+  .navbar,
+  .search-bar,
+  .shopping-icon_a {
+    display: none;
+  }
+}
+
+
 
 * {
   outline: 1px  yellow;
