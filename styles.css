@@ -41,9 +41,6 @@ header {
   margin-top: 2rem;
 }
 
-header * {
-   outline: 2.5px solid red;
-}
 .parent_icon-header {
   display: flex;
   justify-content: center;
@@ -52,12 +49,11 @@ header * {
   width: 15%;
 }
 .parent_icon_header h1 {
-  font-size: 3rem;
+  font-size: calc(1.2rem + 1vw);
 }
 
 .icon {
   max-width: 50%;
-  background-image: url(images/);
 }
 
 .navbar {
@@ -80,19 +76,19 @@ a {
 .search-bar {
   width: 18rem;
   height: 3em;
-  padding-left: 5.3rem;
+  padding-left: 3em;
   border-radius: 25px;
   border: none;
   background-image: url("images/loupe.svg");
   background-repeat: no-repeat;
-  background-size: 2.4rem;
+  background-size: 10.4%;
   background-position: 20px 13px;
   font-size: 1.6rem;
 }
 
 .shopping-icon_a {
-  width: 5rem;
-  height: 5rem;
+  width: 3.2em;
+  height: 3.2em;
   background-image: url("images/shopping-icon.png");
   background-repeat: no-repeat;
   background-size: 3rem;
@@ -104,26 +100,55 @@ a {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1068px) and (min-width: 700px) {
   header {
-    flex-direction: column;
-  }
-
-  .navbar {
-    gap: 1.3em;
-    flex-direction: column;
-  }
-  .parent_input-icon {
+    flex-wrap: wrap;
     justify-content: center;
-
+    margin: 0;
+  }
+  .parent_icon-header {
+    flex-basis: 60%;
+    justify-content: flex-start;
+    
+  }
+  .icon {
+    max-width: 15%;
+  }
+  .navbar {
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: 60%;
+    order: 1;
+    margin: 0 auto 0 6em;
+    
+  }
+  .navbar a {
+    font-size: 1.6rem;
+  }
+  
+  .parent_input-icon {
+   align-items: center;
+   justify-content: flex-end;
   }
   .search-bar {
-    width: 5em;
-  }
+    order: 0;
+    flex-shrink: 1;
+    flex-grow: 0;
+    max-width: 50%;
+    padding-left:1em;
+    text-align: center; 
+    background-image: url("images/loupe.svg");
+    background-repeat: no-repeat;
+    background-size: 12.4%;
+    background-position: 24% 50%;
+   }
+}
+
+* {
+  outline: 1px  yellow;
 }
 
 /* MAIN */
-main  * {}
 
 main {
   display: grid;
