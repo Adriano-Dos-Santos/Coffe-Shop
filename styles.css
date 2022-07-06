@@ -366,7 +366,7 @@ main {
   .section-1 {
     flex-direction: column;
     margin: 0 2em;
-    row-gap: 5em;
+    row-gap: 2em;
   }
   .left-block {
     justify-content: space-between;
@@ -410,10 +410,6 @@ main {
   .right-block_content p {
     font-size: 1.4em; 
   }
-
-    .section-2 *{
-      display: none;
-    }
 }
 
 * {
