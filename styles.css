@@ -236,9 +236,6 @@ a {
 
 
 
-* {
-  outline: 1px  yellow;
-}
 
 /* MAIN */
 
@@ -257,6 +254,8 @@ main {
   grid-row-gap: 5rem;
 }
 
+/* Section-1 */
+
 .section-1 {
   grid-area: section-1;
   display: flex;
@@ -265,15 +264,18 @@ main {
   flex-wrap: nowrap;
   margin: 0 4rem 0 4rem;
 }
+.left-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+}
 
 .left-block_h1 {
-  font-size: 6rem;
-  width: 45rem;
+  font-size: calc(5rem + 1vw);
 }
 
 .left-block_p {
   font-size: 1.9rem;
-  width: 40rem;
   line-height: 1.7;
 }
 
@@ -301,7 +303,6 @@ main {
 
 .center-image {
   max-width: 100%;
-  position: relative;
 }
 
 
@@ -316,16 +317,18 @@ main {
     "right-image-3 content-3"
 ;
   place-items: center center;
+  row-gap: 2em;
 }
 .right-image{
    width: 5rem;
    padding: 10px;
    background-color:  rgb( 254, 233, 206);
    border-radius: 50px;
-   margin-top: 1rem;
-   margin-left: 3rem;
+ 
 }
-
+.right-block_content {
+  margin-left: 1em;
+}
 .right-image-1 {
   grid-area: right-image-1;
 }
@@ -352,6 +355,69 @@ main {
 }
 .right-block_content-3 {
   grid-area: content-3;
+}
+
+@media screen and (max-width: 34.937em) {
+
+  main {
+    margin-top: 5em;
+    
+  }
+  .section-1 {
+    flex-direction: column;
+    margin: 0 2em;
+    row-gap: 5em;
+  }
+  .left-block {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+
+  }
+  .left-block_p {
+    margin-bottom: 1em;
+  }
+  .left-block_price {
+     flex-basis: 40%;
+     white-space: nowrap;
+    }
+  .left-block_button {
+    flex-basis: 30%;
+  }
+   
+  .center-image {
+    min-width: 90%;
+  }
+
+  .right-block {
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "right-image-1 right-image-2 right-image-3"
+    "content-1 content-2 content-3";
+    column-gap: 1em;
+  }
+  .right-image {
+    width: 8em;
+    margin: 0;
+  }
+  .right-block_content h3 {
+    font-size: 2em;
+  }
+  .right-block_content p {
+    font-size: 1.4em; 
+  }
+
+    .section-2 *{
+      display: none;
+    }
+}
+
+* {
+  outline: 1px   yellow;
 }
 
 /* Main_Divisor */
