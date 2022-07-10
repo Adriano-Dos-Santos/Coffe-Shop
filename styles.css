@@ -16,7 +16,7 @@ html {
 body {
   height: 100%;
   background-color: black;
-  background-image: linear-gradient(27deg, rgb(6, 8, 3)50%, rgb(194,151,141)50%);
+  background-image: linear-gradient(27deg, rgb(0, 0, 0)50%, rgb(194,151,141)50%);
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   background-attachment: ;
@@ -55,12 +55,15 @@ header {
 }
 
 .icon {
-  max-width: 50%;
+  max-width: 30%;
 }
 .burger-menu {
   display: none;
   font-size: 3.5rem;
   cursor: pointer;
+}
+.burger-menu:hover {
+  color: #b19d83;
 }
 .navbar {
   display: flex;
@@ -126,7 +129,7 @@ a {
     
   }
   .icon {
-    max-width: 18%;
+    max-width: 15%;
 
   }
   .navbar {
@@ -163,6 +166,11 @@ a {
     background-size: 12.4%;
     background-position: 24% 50%;
    }
+}
+@media screen and (min-width: 66.69em) {
+  .icon {
+    min-width: 60%;
+  }
 }
 @media screen and (max-width: 53.43em) and (min-width: 35em) {
 
@@ -248,16 +256,16 @@ a {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 0fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
   "section-1 section-1 section-1"
   "divisor divisor divisor"
   "section-2 section-2 section-2"
-  "... ... ..."
-  "... ... ..."
-  "... ... ...";
-
-  grid-row-gap: 5rem;
+  "roll-menu roll-menu roll-menu"
+  "menu menu menu"
+  "customer customer customer"
+  "more more more";
+  grid-row-gap: 1em;
 }
 
 /* Section-1 */
@@ -363,16 +371,18 @@ main {
   grid-area: content-3;
 }
 
-@media screen and (max-width: 34.937em) {
+@media screen and (max-width: 34.937em)  {
 
   main {
     margin-top: 5em;
-    
+    grid-template-rows: .5fr max-content 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5em;
   }
   .section-1 {
     flex-direction: column;
     margin: 0 2em;
-    row-gap: 2em;
+    justify-content: space-between;
+    row-gap: 5em;
   }
   .left-block {
     justify-content: space-between;
@@ -382,29 +392,36 @@ main {
     max-width: 90%;
 
   }
+  .left-block_h1 {
+    font-size: 4.7rem;
+  }
   .left-block_p {
     margin-bottom: 1em;
+    font-size: 2rem;
   }
   .left-block_price {
      flex-basis: 40%;
      white-space: nowrap;
     }
   .left-block_button {
-    flex-basis: 30%;
+    flex-basis: 28%;
   }
    
   .center-image {
     min-width: 90%;
+    margin: 0 auto;
+    padding-left: 3em;
   }
-
+ 
   .right-block {
     max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "right-image-1 right-image-2 right-image-3"
     "content-1 content-2 content-3";
     column-gap: 1em;
+    flex: 1;
   }
   .right-image {
     width: 8em;
@@ -441,6 +458,7 @@ main {
   font-family: norwester;
   font-size: 2.5rem;
   font-weight: normal;
+  white-space: nowrap;
 }
 .divisor_container::before,
 .divisor_container::after {
@@ -591,13 +609,37 @@ main {
   .article-1,
   .article-2,
   .article-3 {
-    width: 90%;
+    width: 100%;
   }
-  .article-1_wifi-icon {
+  .article-1 {
+    
+  }
+  .article-1 p,
+  .article-2 p {
+   margin-top: 1em;
+  }
+  .wifi-icon {
     width: 30%;
+    align-self: center;
   }
+
   .article-3_table td {
     font-size: 1.8rem;
     font-weight: ;
   }
+}
+
+
+
+.roll-menu {
+  grid-area: roll-menu;
+}
+.menu {
+  grid-area: menu;
+}
+.customer {
+  grid-area: customer;
+}
+.more {
+  grid-area: more;
 }
