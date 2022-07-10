@@ -49,14 +49,15 @@ This is my first website project made with html and css, the project was build b
 
 ### Built With
 
-- [![HMTL][html]][next-url]
-- [![CSS][css]][react-url]
-- [![Vue][vue.js]][vue-url]
+- HTML
+- CSS
+- Icon from FontAwesome
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- IMAGES -->
-
+   <a href="https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop">
+    <img src="images/Screenshots/desktop-1.png" alt="desktop" width="200" height="auto">
 <!-- ROADMAP -->
 
 ## Roadmap
@@ -65,8 +66,6 @@ This is my first website project made with html and css, the project was build b
 - [ ] Feature 2
 - [ ] Feature 3
   - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
