@@ -9,11 +9,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
@@ -43,7 +38,7 @@ This is my first website project made with html and css, the project was build b
 
 - HTML
 - CSS
-- Icons from <a href="">FontAwesome</>
+- Icons from <a href="https://fontawesome.com/">FontAwesome</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -54,14 +49,20 @@ This is my first website project made with html and css, the project was build b
    <a href="https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop">
     <img src="images/Screenshots/desktop-1.png" alt="desktop" width="800" height="auto">
     <img src="images/Screenshots/desktop-2.png" alt="desktop" width="800" height="auto">
+    <img src="images/Screenshots/mobile-1.png" alt="mobile" width="600" height="auto">
+    <img src="images/Screenshots/mobile-2.png" alt="mobile" width="600" height="auto">
+    <img src="images/Screenshots/mobile-3.png" alt="mobile" width="600" height="auto">
+    <img src="images/Screenshots/mobile-4.png" alt="mobile" width="600" height="auto">
+
    </a>
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
+- [ ] add new sections
 - [ ] make it fully responsive
-- [ ] make it better
+- [ ] refactor the code
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
