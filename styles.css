@@ -66,12 +66,16 @@ header {
   display: flex;
   gap: 3.5rem;
 }
+.navbar li {
+  list-style: none;
+}
 a {
   text-decoration: none;
   color: rgb( 254, 233, 206);
   font-size: 1.6rem;
   font-weight: 550;
 }
+
 .parent_input-icon {
   display: flex;
   justify-content: space-between;
@@ -139,7 +143,7 @@ a {
     width: max-content;
     font-weight: 600;
     color:rgb(258, 233, 203);
-
+    white-space: nowrap;
     padding: 0 1em;
   }
   
