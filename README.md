@@ -49,10 +49,10 @@ This is my first website project made with html and css, the project was build b
    <a href="https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop">
     <img src="images/Screenshots/desktop-1.png" alt="desktop" width="800" height="auto">
     <img src="images/Screenshots/desktop-2.png" alt="desktop" width="800" height="auto">
-    <img src="images/Screenshots/mobile-1.png" alt="mobile" width="600" height="auto">
-    <img src="images/Screenshots/mobile-2.png" alt="mobile" width="600" height="auto">
-    <img src="images/Screenshots/mobile-3.png" alt="mobile" width="600" height="auto">
-    <img src="images/Screenshots/mobile-4.png" alt="mobile" width="600" height="auto">
+    <img src="images/Screenshots/mobile-1.png" alt="mobile" width="400" height="auto">
+    <img src="images/Screenshots/mobile-2.png" alt="mobile" width="400" height="auto">
+    <img src="images/Screenshots/mobile-3.png" alt="mobile" width="400" height="auto">
+    <img src="images/Screenshots/mobile-4.png" alt="mobile" width="400" height="auto">
 
    </a>
 
