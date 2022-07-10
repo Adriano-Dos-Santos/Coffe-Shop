@@ -9,7 +9,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/adriano-dos-santos-da-costa-622b91218/]
 
 <!-- PROJECT LOGO -->
 <br />
