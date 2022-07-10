@@ -41,7 +41,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](images/Screenshots/desktop-1.png)
 
 This is my first website project made with html and css, the project was build by me to aply the knowledges i had about html and css, it is fully reponsive and as my first project it is not perfect and i accept any help you may has to make it better.
 
@@ -51,14 +51,18 @@ This is my first website project made with html and css, the project was build b
 
 - HTML
 - CSS
-- Icon from FontAwesome
+- Icons from <a href="">FontAwesome</>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- IMAGES -->
+
+### Images
+
    <a href="https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop">
     <img src="images/Screenshots/desktop-1.png" alt="desktop" width="800" height="auto">
     <img src="images/Screenshots/desktop-2.png" alt="desktop" width="800" height="auto">
+   </a>
 
 <!-- ROADMAP -->
 
