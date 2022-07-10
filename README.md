@@ -70,7 +70,7 @@ This is my first website project made with html and css, the project was build b
 
 ## Contact
 
-Adriano - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Adriano - [Facebook](https://www.facebook.com/profile.php?id=100010705865627)
 
 Project Link: [https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop](https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop)
 
