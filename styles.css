@@ -105,6 +105,8 @@ a {
   border-radius: 50px;
 }
 
+/* RESPONSIVE HEADER */
+
 
 @media screen and (max-width: 66.75em) and (min-width: 53.4375em) {
   header {
@@ -412,10 +414,6 @@ main {
   }
 }
 
-* {
-  outline: 1px   yellow;
-}
-
 /* Main_Divisor */
 .divisor {
   grid-area: divisor;
@@ -572,3 +570,30 @@ main {
   color: rgb(200, 160, 100);
 }
 
+
+
+* {
+  outline: 1px   yellow;
+}
+
+@media screen and (max-width: 34.937em) {
+  .section-2 {
+    flex-direction: column;
+    margin-top: 3em;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 5em;
+  }
+  .article-1,
+  .article-2,
+  .article-3 {
+    width: 90%;
+  }
+  .article-1_wifi-icon {
+    width: 30%;
+  }
+  .article-3_table td {
+    font-size: 1.8rem;
+    font-weight: ;
+  }
+}
