@@ -26,22 +26,14 @@
 <h3 align="center">Coffe Shop</h3>
 
   <p align="center">
-    This is my first website project made with html and css, the project was build by me to aply the knowledges i had about html and css, it is fully reponsive and as my first project it is not perfect and i accept any help you may has.
+    Coffe Shop website project made with html and css.
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](images/Screenshots/desktop-1.png)
 
 This is my first website project made with html and css, the project was build by me to aply the knowledges i had about html and css, it is fully reponsive and as my first project it is not perfect and i accept any help you may has to make it better.
 
@@ -68,10 +60,8 @@ This is my first website project made with html and css, the project was build b
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [ ] make it fully responsive
+- [ ] make it better
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -79,9 +69,9 @@ This is my first website project made with html and css, the project was build b
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Adriano - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop](https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
