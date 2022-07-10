@@ -56,8 +56,9 @@ This is my first website project made with html and css, the project was build b
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- IMAGES -->
-   <a href="https://github.com/Adriano-Dos-Santos/HTML-Coffe-Shop">
-    <img src="images/Screenshots/desktop-1.png" alt="desktop" width="200" height="auto">
+
+    <img src="images/Screenshots/desktop-1.png" alt="desktop" width="800" height="auto">
+
 <!-- ROADMAP -->
 
 ## Roadmap
