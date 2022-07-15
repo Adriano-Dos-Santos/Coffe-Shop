@@ -638,9 +638,6 @@ main {
   color: rgb(200, 160, 100);
 }
 
-
-
-
 @media screen and (max-width: 34.937em) {
   .section-2 {
     flex-direction: column;
@@ -671,8 +668,6 @@ main {
     font-weight: ;
   }
 }
-
-
 
 .roll-menu {
   grid-area: roll-menu;
