@@ -373,11 +373,6 @@ main {
 
 /* Section-1 responsive */
 
-* {
-  outline: 1px solid yellow;
-}
-
-
 @media screen and (max-width: 66.75em) and (min-width: 53.4375em) {
   .section-1 {
   flex-wrap: wrap;
@@ -414,6 +409,68 @@ main {
   }
 }
 @media screen and (max-width: 53.4375em ) and (min-width: 35em) {
+  main {
+    margin-top: 5em;
+    grid-template-rows: .5fr max-content 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5em;
+  }
+  .section-1 {
+    flex-direction: column;
+    margin: 0 2em;
+    justify-content: space-between;
+    row-gap: 5em;
+  }
+  .left-block {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+
+  }
+  .left-block_h1 {
+    font-size: 4.7rem;
+  }
+  .left-block_p {
+    margin-bottom: 1em;
+    font-size: 2rem;
+  }
+  .left-block_price {
+     flex-basis: 100%;
+     white-space: nowrap;
+    }
+  .left-block_button {
+    flex-basis: 28%;
+    max-width: 120px;
+  }
+
+  .center-image {
+    min-width: 70%;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-left: 3em;
+  }
+
+  .right-block {
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "right-image-1 right-image-2 right-image-3"
+    "content-1 content-2 content-3";
+    column-gap: 1em;
+    flex: 1;
+  }
+  .right-image {
+    width: 8em;
+    margin: 0;
+  }
+  .right-block_content h3 {
+    font-size: 2em;
+  }
+  .right-block_content p {
+    font-size: 1.4em;
+  }
 
 }
 
