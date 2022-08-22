@@ -31,7 +31,7 @@
 
 ## About The Project
 
-This is my first website project made with html and css from zero, the project was build by me to aply the knowledges i had about html and css, the design is inspired from a template a i found on internet.
+This is my first website project made with html and css, this site was created from zero it is not a course project, the project was build by me to aply the knowledges i had about html and css.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
