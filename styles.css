@@ -14,18 +14,38 @@ html {
   height: 100vh;
 }
 body {
-  height: 100%;
-  background-color: black;
+  background-color: var(--color-black);
   background-image: linear-gradient(
     27deg,
-    rgb(0, 0, 0) 50%,
-    rgb(194, 151, 141) 50%
+    var(--color-black) 50%,
+    var(--color-main-bright) 50%
   );
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   background-attachment: ;
-  color: rgb(254, 233, 206);
+  color: var(--color-smooth);
 }
+
+/* ------------- */
+/* ------------- */
+/* Variables    */
+/* ------------- */
+/* ------------- */
+
+:root {
+  --color-black: rgb(0, 0, 0);
+  --color-main-dark: rgb(200, 160, 100);
+  --color-main-bright: rgb(193, 151, 141);
+  --color-smooth: rgb(254, 233, 206);
+  --color-orange: rgb(254, 203, 106);
+}
+
+/* ------------- */
+/* ------------- */
+/* FONT SIZING  */
+/* ------------- */
+/* ------------- */
+
 h1 {
   font-size: 2.4rem;
   font-family: norwester;
@@ -82,7 +102,7 @@ header {
 }
 a {
   text-decoration: none;
-  color: rgb(254, 233, 206);
+  color: var(--color-smooth);
   font-size: 1.6rem;
   font-weight: 550;
 }
@@ -131,7 +151,7 @@ a {
     flex-wrap: wrap;
     margin-top: 0;
     background-color: rgb(6, 8, 3);
-    border-bottom: 3px solid rgb(254, 233, 206);
+    border-bottom: 3px solid var(--color-smooth);
     justify-content: center;
   }
   .parent_icon-header {
@@ -177,7 +197,7 @@ a {
     margin-top: 0;
     background-color: rgb(6, 8, 3);
     justify-content: space-between;
-    border-bottom: 3px solid rgb(254, 233, 206);
+    border-bottom: 3px solid var(--color-smooth);
   }
   .parent_icon-header {
     flex: 2;
@@ -218,7 +238,7 @@ a {
     margin-top: 0;
     background-color: rgb(6, 8, 3);
     justify-content: space-between;
-    border-bottom: 3px solid rgb(254, 233, 206);
+    border-bottom: 3px solid var(--color-smooth);
   }
   .parent_icon-header {
     justify-content: flex-start;
@@ -305,7 +325,7 @@ main {
   border-radius: 50px;
   padding: 5px 40px 5px 10px;
   color: #000;
-  background-color: rgb(254, 233, 206);
+  background-color: var(--color-smooth);
   background-image: url(images/play-button.svg);
   background-repeat: no-repeat;
   background-position: 84%;
@@ -331,7 +351,7 @@ main {
 .right-image {
   width: 5rem;
   padding: 10px;
-  background-color: rgb(254, 233, 206);
+  background-color: var(--color-smooth);
   border-radius: 50px;
 }
 .right-block_content {
@@ -556,7 +576,7 @@ main {
 .divisor_container::before,
 .divisor_container::after {
   content: " ";
-  border-top: 1px solid rgb(254, 203, 106);
+  border-top: 1px solid var(--color-orange);
   height: 1px;
   width: 25%;
 }
@@ -605,7 +625,7 @@ main {
 }
 
 .article-2 a {
-  color: rgb(200, 160, 100);
+  color: var(--color-main-dark);
   font-size: 1.7rem;
   margin-top: 1rem;
 }
@@ -665,7 +685,7 @@ main {
 }
 .article-3_table_tfoot td {
   font-family: norwester;
-  color: rgb(200, 160, 100);
+  color: var(--color-main-dark);
   font-size: 2.3rem;
 }
 
@@ -677,7 +697,7 @@ main {
   font-size: 2rem;
   font-style: normal;
   letter-spacing: -1px;
-  color: rgb(200, 160, 100);
+  color: var(--color-main-dark);
 }
 
 @media screen and (max-width: 34.937em) {
