@@ -21,7 +21,7 @@
 <h3 align="center">Coffe Shop</h3>
 
   <p align="center">
-    Coffe Shop website project made with html and css.
+    A responsive Coffe Shop website project made with html and css.
     <br />
     <a href="">LIVE Coffe Shop here</a>
     <br />
@@ -31,7 +31,7 @@
 
 ## About The Project
 
-This is my first website project made with html and css, the project was build by me to aply the knowledges i had about html and css, it is fully reponsive and as my first project it is not perfect and i accept any help you may has to make it better.
+This is my first website project made with html and css from zero, the project was build by me to aply the knowledges i had about html and css, the design is inspired from a template a i found on internet.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

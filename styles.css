@@ -46,9 +46,9 @@ li {
 /* ------------- */
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  padding: 0 3em 0 3em;
 }
 
 .parent_icon-header {
@@ -58,12 +58,12 @@ header {
   gap: 1.7rem;
   width: 15%;
 }
-.parent_icon_header h1 {
-  font-size: calc(1.2rem + 1vw);
+.parent_icon-header h1 {
+  font-size: calc(1rem + 1vw);
 }
 
 .icon {
-  max-width: 30%;
+  max-width: 35%;
 }
 .burger-menu {
   display: none;
@@ -138,9 +138,6 @@ a {
     flex-basis: 60%;
     justify-content: flex-start;
   }
-  .icon {
-    max-width: 15%;
-  }
   .navbar {
     flex-shrink: ;
     flex-grow: ;
@@ -173,11 +170,6 @@ a {
     background-repeat: no-repeat;
     background-size: 12.4%;
     background-position: 24% 50%;
-  }
-}
-@media screen and (min-width: 66.69em) {
-  .icon {
-    min-width: 60%;
   }
 }
 @media screen and (max-width: 53.43em) and (min-width: 35em) {
@@ -261,7 +253,7 @@ a {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 0.1fr 0.5fr 0.3fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 1fr 1fr 1fr;
   grid-template-areas:
     "section-1 section-1 section-1"
     "divisor divisor divisor"
@@ -598,9 +590,7 @@ main {
 .article-1_wifi-icon {
   width: 34%;
   align-self: flex-end;
-  margin-top: 0rem;
-  margin-right: 3rem;
-  display: inline;
+  margin: 2em 2em 0 0;
 }
 
 .article-1 h2,
@@ -726,11 +716,14 @@ main {
 .roll-menu {
   grid-area: roll-menu;
   display: flex;
-  margin: 0 2em 0 2em;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 2em 0 2em 0;
 }
 
 .roll-menu img {
   max-width: 100%;
+  border-radius: 1.4%;
 }
 
 @media screen and (max-width: 34.937em) {
@@ -754,6 +747,17 @@ main {
 
 .menu {
   grid-area: menu;
+}
+.menu h1 {
+  margin: 0 0 0 4em;
+  font-size: 4rem;
+}
+
+.menu_container {
+  margin-top: 6em;
+}
+.menu_container h2 {
+  margin: 0 0 1em 3.2em;
 }
 
 .container_coffe-grid {
