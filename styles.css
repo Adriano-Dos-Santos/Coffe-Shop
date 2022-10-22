@@ -37,6 +37,7 @@ body {
   --color-main-dark: rgb(200, 160, 100);
   --color-main-bright: rgb(193, 151, 141);
   --color-smooth: rgb(254, 233, 206);
+  --color-smooth-strong: rgb(234, 193, 146);
   --color-orange: rgb(254, 203, 106);
 }
 
@@ -767,10 +768,16 @@ main {
 
 .menu {
   grid-area: menu;
+  margin: 3em 0 0 0;
+  padding: 0 4em;
 }
 .menu h1 {
-  margin: 0 0 0 4em;
-  font-size: 4rem;
+  font-size: 5rem;
+  text-align: center;
+}
+.menu_title-span {
+  font-size: 5rem;
+  color: var(--color-main-dark);
 }
 
 .menu_container {
@@ -780,49 +787,138 @@ main {
   margin: 0 0 1em 3.2em;
 }
 
+/* DRINKS MENU */
 .container_coffe-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(300px, 1fr));
   grid-row-gap: 2em;
+  grid-column-gap: 2em;
+  margin: 1em;
 }
 .coffe-grid_item {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  column-gap: 4em;
+  grid-row-gap: 1.4em;
+  border: 1px solid rgba(254, 233, 206, 0.4);
+  padding: 6em 0;
 }
+
 .coffe-grid_item img {
   border-radius: 50%;
-  max-width: 30%;
+  max-width: 36%;
   flex-basis: 50%;
 }
 .coffe-grid_item h3 {
-  font-size: 2rem;
-  flex-basis: 30%;
+  font-size: 2.3rem;
 }
+.coffe-grid_item p {
+  font-size: 3rem;
+}
+
+.coffe-grid-item_span {
+  font-size: 1.9rem;
+  text-decoration: line-through;
+}
+.coffe-grid_item button {
+  padding: 0.5em 1.8em;
+  font-size: 2rem;
+  border-radius: 2px;
+  border: none;
+  background-color: var(--color-smooth-strong);
+  color: white;
+  cursor: pointer;
+}
+.coffe-grid_item:hover {
+  background-color: white;
+  color: var(--color-black);
+  animation-name: grid-item-fade-in;
+  animation-duration: 0.4s;
+}
+
+.coffe-grid_item:hover button {
+  color: black;
+  animation-name: button-fade-in;
+  animation-duration: 0.4s;
+}
+
+/* FOODS MENU */
 
 .container_food-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(300px, 1fr));
   grid-row-gap: 2em;
+  grid-column-gap: 2em;
+  margin: 1em;
 }
 .food-grid_item {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  column-gap: 1em;
+  grid-row-gap: 1.4em;
+  border: 1px solid rgba(254, 233, 206, 0.4);
+  padding: 6em 0;
 }
 .food-grid_item img {
   border-radius: 50%;
-  max-width: 33%;
-  height: 90%;
-  flex-basis: 40%;
+  max-width: 36%;
+  flex-basis: 50%;
 }
 .food-grid_item h3 {
+  font-size: 2.3rem;
+}
+.food-grid_item p {
+  font-size: 3rem;
+}
+
+.food-grid-item_span {
+  font-size: 1.9rem;
+  text-decoration: line-through;
+}
+.food-grid_item button {
+  padding: 0.5em 1.8em;
   font-size: 2rem;
-  flex-basis: 35%;
+  border-radius: 2px;
+  border: none;
+  background-color: var(--color-smooth-strong);
+  color: white;
+  cursor: pointer;
+}
+.food-grid_item:hover {
+  color: var(--color-black);
+  background-color: white;
+  animation-name: grid-item-fade-in;
+  animation-duration: 0.4s;
+}
+.food-grid_item:hover button {
+  color: black;
+  animation-name: button-fade-in;
+  animation-duration: 0.4s;
+}
+
+@keyframes grid-item-fade-in {
+  from {
+    background-color: black;
+    color: var(--color-smooth);
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
+@keyframes button-fade-in {
+  from {
+    color: white;
+  }
+  to {
+    color: black;
+  }
 }
 
 /* ------ */
