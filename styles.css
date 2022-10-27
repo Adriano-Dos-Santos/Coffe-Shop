@@ -907,7 +907,7 @@ main {
     color: white;
   }
   to {
-    background-color: white;
+    background-color: var(--color-smooth);
     color: black;
   }
 }
