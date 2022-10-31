@@ -904,10 +904,9 @@ main {
   from {
     background-color: black;
     color: var(--color-smooth);
-    color: white;
   }
   to {
-    background-color: var(--color-smooth);
+    background-color: white;
     color: black;
   }
 }
