@@ -23,7 +23,7 @@
   <p align="center">
     A responsive Coffe Shop website project made with html and css.
     <br />
-    <a href="">LIVE Coffe Shop here</a>
+    <a href="https://adriano-dos-santos.github.io/Coffe-Shop/">LIVE Coffe Shop here</a>
     <br />
 </div>
 
