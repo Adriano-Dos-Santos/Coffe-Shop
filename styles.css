@@ -524,11 +524,12 @@ main {
 
   .right-block {
     max-width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      "right-image-1 right-image-2 right-image-3"
-      "content-1 content-2 content-3";
+      "right-image-1 content-1"
+      "right-image-2 content-2"
+      "right-image-3 content-3";
     column-gap: 1em;
     flex: 1;
   }
@@ -700,14 +701,15 @@ main {
   .section-2 {
     flex-direction: column;
     margin-top: 3em;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     row-gap: 5em;
   }
-  .article-1,
-  .article-2,
-  .article-3 {
-    width: 100%;
+ main {
+   grid-template-rows: 0.5fr max-content max-content max-content 1fr 1fr 1fr;
+  } 
+  .section-2_article {
+   flex: 1; 
   }
   .article-1 p,
   .article-2 p {
@@ -910,6 +912,35 @@ main {
   to {
     color: black;
   }
+}
+
+
+@media screen and (max-width: 34.937em) {
+
+  .menu {
+    margin: 0;
+    padding: 0;
+
+  }
+  .menu h2,
+  .menu h1 {
+   text-align: center;
+   margin: 1em 0;
+  }
+
+ .container_coffe-grid {
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(3,minmax(300px, 1fr));
+   margin: 0;
+ }
+ .container_food-grid {
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(3,minmax(300px,1fr));
+ }
+}
+.menu  * {
+
+  outline: 1px solid red;
 }
 
 /* ------ */

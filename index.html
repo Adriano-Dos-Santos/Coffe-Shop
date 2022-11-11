@@ -1,300 +1,276 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Adriano Dos Santos" />
-    <meta
-      name="description"
-      content="Site feito para aplicar os primeiros conhecimentos de html aprendidos por mim, um site de uma loja de cafe."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script
-      src="https://kit.fontawesome.com/e728336542.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Starbuzz</title>
-    <link rel="icon" type="image" href="favicon.png" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
 
-  <body>
-    <header>
-      <div class="parent_icon-header child">
-        <img class="icon" src="images/icons8-starbucks.svg" alt="" />
-        <h1>Starbuzz</h1>
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Adriano Dos Santos" />
+  <meta name="description"
+    content="Site feito para aplicar os primeiros conhecimentos de html aprendidos por mim, um site de uma loja de cafe." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/e728336542.js" crossorigin="anonymous"></script>
+  <title>Starbuzz</title>
+  <link rel="icon" type="image" href="favicon.png" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="parent_icon-header child">
+      <img class="icon" src="images/icons8-starbucks.svg" alt="" />
+      <h1>Starbuzz</h1>
+    </div>
+    <nav class="navbar child">
+      <ul class="navbar">
+        <li><a href="#"> Trending </a></li>
+        <li><a href="#"> Rewards </a></li>
+        <li><a href="#"> Gift Cards </a></li>
+        <li><a href="#"> Reserve</a></li>
+        <li><a href="#"> Delivery</a></li>
+      </ul>
+    </nav>
+
+    <div class="parent_input-icon">
+      <i class="burger-menu fa-solid fa-bars"></i>
+      <input class="search-bar" type="text" placeholder="Search" />
+      <a class="shopping-icon_a child" href="#"> </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section -  1 -->
+    <section class="section-1">
+      <div class="left-block">
+        <h1 class="left-block_h1">Midnight Frappuccino</h1>
+        <p class="left-block_p">
+          The Midnight Mint Mocha Frappuccino features extra dark cocca
+          blended with Frappuccino Roast coffee.
+        </p>
+        <p class="left-block_price">$8.60</p>
+        <a class="left-block_button" href="#">Buy Now</a>
       </div>
-      <nav class="navbar child">
-        <ul class="navbar">
-          <li><a href="#"> Trending </a></li>
-          <li><a href="#"> Rewards </a></li>
-          <li><a href="#"> Gift Cards </a></li>
-          <li><a href="#"> Reserve</a></li>
-          <li><a href="#"> Delivery</a></li>
-        </ul>
-      </nav>
-
-      <div class="parent_input-icon">
-        <i class="burger-menu fa-solid fa-bars"></i>
-        <input class="search-bar" type="text" placeholder="Search" />
-        <a class="shopping-icon_a child" href="#"> </a>
-      </div>
-    </header>
-
-    <main>
-      <!-- Section -  1 -->
-      <section class="section-1">
-        <div class="left-block">
-          <h1 class="left-block_h1">Midnight Frappuccino</h1>
-          <p class="left-block_p">
-            The Midnight Mint Mocha Frappuccino features extra dark cocca
-            blended with Frappuccino Roast coffee.
-          </p>
-          <p class="left-block_price">$8.60</p>
-          <a class="left-block_button" href="#">Buy Now</a>
+      <img class="center-image" src="images/main-coffe-medium.png" alt="startbucks cup" />
+      <aside class="right-block">
+        <img class="right-image right-image-1" src="images/003-chocolate.png" alt="cup icon" />
+        <img class="right-image right-image-2" src="images/001-donut.png" alt="" />
+        <img class="right-image right-image-3" src="images/002-cookie.png" alt="" />
+        <div class="right-block_content right-block_content-1">
+          <h3>Sippy cups</h3>
+          <p>Are the New Norm for iced coffe</p>
         </div>
-        <img
-          class="center-image"
-          src="images/main-coffe-medium.png"
-          alt="startbucks cup"
-        />
-        <aside class="right-block">
-          <img
-            class="right-image right-image-1"
-            src="images/003-chocolate.png"
-            alt="cup icon"
-          />
-          <img
-            class="right-image right-image-2"
-            src="images/001-donut.png"
-            alt=""
-          />
-          <img
-            class="right-image right-image-3"
-            src="images/002-cookie.png"
-            alt=""
-          />
-          <div class="right-block_content right-block_content-1">
-            <h3>Sippy cups</h3>
-            <p>Are the New Norm for iced coffe</p>
+        <div class="right-block_content right-block_content-2">
+          <h3>Donut</h3>
+          <p>Have a donut with the frappuccino</p>
+        </div>
+        <div class="right-block_content right-block_content-3">
+          <h3>Cookies</h3>
+          <p>Enjoy our sugar free cookies</p>
+        </div>
+      </aside>
+    </section>
+    <!-- Divisor -->
+    <div class="divisor">
+      <div class="divisor_container">
+        <img src="images/line-coffe.png" alt="cup of coffe icon" />
+        <p>STARBUZZ CAFE</p>
+      </div>
+    </div>
+    <!-- Section-2  -->
+    <section class="section-2">
+      <article class="section-2_article article-1">
+        <img src="images/cookie-coffe-medium-1.jpg" alt="" />
+        <h2>REST, RELAX & REVIVE!</h2>
+        <p>
+          At Vertical people come from all around to rest, relax and revive
+          with good coffee, good company, and great food! Pulvinar sapien et
+          ligula ullamcorper malesuada proin libero nunc, consequat.
+        </p>
+        <img class="article-1_wifi-icon wifi-icon" alt="coffe cup icon with the frase free wi-fi in it"
+          src="images/wifi.jpg" />
+      </article>
+      <!-- Article-2 -->
+      <article class="section-2_article article-2">
+        <img src="images/coffe_test.jpg" alt="" />
+        <h2>DID SOMEONE SAY "COFFE"!</h2>
+        <p>
+          We offer some of the best locally roasted coffee using “Brazilian
+          Santos” beans. Enjoy Dark, Blonde, Jamaican, Italian & Decaf roasts.
+          Also available are our specialty Lattes, Frappes, Mochas,
+          Cappuccinos, Americanos & more …
+        </p>
+
+        <p>
+          To see more of our coffee, specialty drinks & food menus, please
+          click the link below
+        </p>
+        <a href="#">CLICK TO LEARN MORE</a>
+      </article>
+      <!-- Aticle-3 -->
+      <article class="section-2_article article-3">
+        <h2>opening hours</h2>
+        <table class="article-3_table">
+          <tbody>
+            <tr>
+              <th>monday</th>
+              <td>7:00 am - 5:00 pm</td>
+            </tr>
+            <tr>
+              <th>tuesday</th>
+              <td>7:00 am - 5:00 pm</td>
+            </tr>
+            <tr>
+              <th>wednesday</th>
+              <td>7:00 am - 3:00 pm</td>
+            </tr>
+            <tr>
+              <th>thursday</th>
+              <td>7:00 am - 5:00 pm</td>
+            </tr>
+            <tr>
+              <th>friday</th>
+              <td>7:00 am - 5:00 pm</td>
+            </tr>
+            <tr>
+              <th>saturday</th>
+              <td>7:00 am - 2:00 pm</td>
+            </tr>
+          </tbody>
+          <tfoot class="article-3_table_tfoot">
+            <tr>
+              <th>sunday</th>
+              <td>closed</td>
+            </tr>
+          </tfoot>
+        </table>
+        <address>
+          <p>CALL: + 11 585 786 8181</p>
+        </address>
+      </article>
+    </section>
+    <!-- ------------------------------------------------- -->
+
+    <!--  -------------- */ -->
+    <!-- /* Roll-menu SECTION 3 */ --->
+    <!-- /* -------------- */ -->
+
+    <section class="roll-menu section-3">
+      <div class="roll-menu-image">
+        <img src="images/coffe_1.jpg" alt="coffe grains machine" />
+      </div>
+      <div class="roll-menu-image">
+        <img src="images/coffe_2.jpg" alt="" />
+      </div>
+      <div class="roll-menu-image">
+        <img src="images/coffe_3.jpg" alt="" />
+      </div>
+      <div class="roll-menu-image">
+        <img src="images/coffe_5.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- -------- -->
+    <!-- MENU - Section 4 -->
+    <!-- ----------- -->
+    <section class="menu">
+      <h1><span class="menu_title-span">OUR</span> MENU</h1>
+
+      <section class="menu_container drink-container">
+        <h2>drinks</h2>
+        <div class="container_coffe-grid">
+          <div class="coffe-grid_item">
+            <img alt="hot coffe" src="images/menu/drinks/hot-coffes.jpg" />
+            <h3>Hot Coffees</h3>
+            <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
           </div>
-          <div class="right-block_content right-block_content-2">
-            <h3>Donut</h3>
-            <p>Have a donut with the frappuccino</p>
+          <div class="coffe-grid_item">
+            <img alt="" src="images/menu/drinks/hot-tea.jpg" />
+            <h3>Hot Teas</h3>
+            <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
           </div>
-          <div class="right-block_content right-block_content-3">
+          <div class="coffe-grid_item">
+            <img alt="" src="images/menu/drinks/hot-drinks.jpg" />
+            <h3>Hot Drinks</h3>
+            <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
+          </div>
+          <div class="coffe-grid_item">
+            <img alt="" src="images/menu/drinks/cold-coffes.jpg" />
+            <h3>Cold Coffees</h3>
+            <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
+          </div>
+          <div class="coffe-grid_item">
+            <img alt="" src="images/menu/drinks/cold-drinks.jpg" />
+            <h3>Cold Drinks</h3>
+            <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
+          </div>
+          <div class="coffe-grid_item">
+            <img alt="" src="images/menu/drinks/frappuccinos.jpg" />
+            <h3>Frappuccinos</h3>
+            <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
+          </div>
+          <div class="coffe-grid_item">
+            <img alt="" src="images/menu/drinks/iced-drinks.jpg" />
+            <h3>Iced Teas</h3>
+            <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
+          </div>
+          <div class="coffe-grid_item">
+            <img alt="" src="images/menu/drinks/milk-shake.jpg" />
+            <h3>Milk Shakes</h3>
+            <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu_container food-container">
+        <h2>Foods</h2>
+        <div class="container_food-grid">
+          <div class="food-grid_item">
+            <img alt="" src="images/menu/food/chocolate-cookies.png" />
             <h3>Cookies</h3>
-            <p>Enjoy our sugar free cookies</p>
+            <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
           </div>
-        </aside>
-      </section>
-      <!-- Divisor -->
-      <div class="divisor">
-        <div class="divisor_container">
-          <img src="images/line-coffe.png" alt="cup of coffe icon" />
-          <p>STARBUZZ CAFE</p>
-        </div>
-      </div>
-      <!-- Section-2  -->
-      <section class="section-2">
-        <article class="section-2_article article-1">
-          <img src="images/cookie-coffe-medium-1.jpg" alt="" />
-          <h2>REST, RELAX & REVIVE!</h2>
-          <p>
-            At Vertical people come from all around to rest, relax and revive
-            with good coffee, good company, and great food! Pulvinar sapien et
-            ligula ullamcorper malesuada proin libero nunc, consequat.
-          </p>
-          <img
-            class="article-1_wifi-icon wifi-icon"
-            alt="coffe cup icon with the frase free wi-fi in it"
-            src="images/wifi.jpg"
-          />
-        </article>
-        <!-- Article-2 -->
-        <article class="section-2_article article-2">
-          <img src="images/coffe_test.jpg" alt="" />
-          <h2>DID SOMEONE SAY "COFFE"!</h2>
-          <p>
-            We offer some of the best locally roasted coffee using “Brazilian
-            Santos” beans. Enjoy Dark, Blonde, Jamaican, Italian & Decaf roasts.
-            Also available are our specialty Lattes, Frappes, Mochas,
-            Cappuccinos, Americanos & more …
-          </p>
-
-          <p>
-            To see more of our coffee, specialty drinks & food menus, please
-            click the link below
-          </p>
-          <a href="#">CLICK TO LEARN MORE</a>
-        </article>
-        <!-- Aticle-3 -->
-        <article class="section-2_article article-3">
-          <h2>opening hours</h2>
-          <table class="article-3_table">
-            <tbody>
-              <tr>
-                <th>monday</th>
-                <td>7:00 am - 5:00 pm</td>
-              </tr>
-              <tr>
-                <th>tuesday</th>
-                <td>7:00 am - 5:00 pm</td>
-              </tr>
-              <tr>
-                <th>wednesday</th>
-                <td>7:00 am - 3:00 pm</td>
-              </tr>
-              <tr>
-                <th>thursday</th>
-                <td>7:00 am - 5:00 pm</td>
-              </tr>
-              <tr>
-                <th>friday</th>
-                <td>7:00 am - 5:00 pm</td>
-              </tr>
-              <tr>
-                <th>saturday</th>
-                <td>7:00 am - 2:00 pm</td>
-              </tr>
-            </tbody>
-            <tfoot class="article-3_table_tfoot">
-              <tr>
-                <th>sunday</th>
-                <td>closed</td>
-              </tr>
-            </tfoot>
-          </table>
-          <address>
-            <p>CALL: + 11 585 786 8181</p>
-          </address>
-        </article>
-      </section>
-      <!-- ------------------------------------------------- -->
-
-      <!--  -------------- */ -->
-      <!-- /* Roll-menu SECTION 3 */ --->
-      <!-- /* -------------- */ -->
-
-      <section class="roll-menu section-3">
-        <div class="roll-menu-image">
-          <img src="images/coffe_1.jpg" alt="coffe grains machine" />
-        </div>
-        <div class="roll-menu-image">
-          <img src="images/coffe_2.jpg" alt="" />
-        </div>
-        <div class="roll-menu-image">
-          <img src="images/coffe_3.jpg" alt="" />
-        </div>
-        <div class="roll-menu-image">
-          <img src="images/coffe_5.jpg" alt="" />
-        </div>
-      </section>
-
-      <!-- -------- -->
-      <!-- MENU - Section 4 -->
-      <!-- ----------- -->
-      <section class="menu">
-        <h1><span class="menu_title-span">OUR</span> MENU</h1>
-
-        <section class="menu_container drink-container">
-          <h2>drinks</h2>
-          <div class="container_coffe-grid">
-            <div class="coffe-grid_item">
-              <img alt="hot coffe" src="images/menu/drinks/hot-coffes.jpg" />
-              <h3>Hot Coffees</h3>
-              <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="coffe-grid_item">
-              <img alt="" src="images/menu/drinks/hot-tea.jpg" />
-              <h3>Hot Teas</h3>
-              <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="coffe-grid_item">
-              <img alt="" src="images/menu/drinks/hot-drinks.jpg" />
-              <h3>Hot Drinks</h3>
-              <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="coffe-grid_item">
-              <img alt="" src="images/menu/drinks/cold-coffes.jpg" />
-              <h3>Cold Coffees</h3>
-              <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="coffe-grid_item">
-              <img alt="" src="images/menu/drinks/cold-drinks.jpg" />
-              <h3>Cold Drinks</h3>
-              <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="coffe-grid_item">
-              <img alt="" src="images/menu/drinks/frappuccinos.jpg" />
-              <h3>Frappuccinos</h3>
-              <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="coffe-grid_item">
-              <img alt="" src="images/menu/drinks/iced-drinks.jpg" />
-              <h3>Iced Teas</h3>
-              <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="coffe-grid_item">
-              <img alt="" src="images/menu/drinks/milk-shake.jpg" />
-              <h3>Milk Shakes</h3>
-              <p>$15.99 <span class="coffe-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
+          <div class="food-grid_item">
+            <img alt="" src="images/menu/food/cup-cake.png" />
+            <h3>Cup Cakes</h3>
+            <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
           </div>
-        </section>
-
-        <section class="menu_container food-container">
-          <h2>Foods</h2>
-          <div class="container_food-grid">
-            <div class="food-grid_item">
-              <img alt="" src="images/menu/food/chocolate-cookies.png" />
-              <h3>Cookies</h3>
-              <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="food-grid_item">
-              <img alt="" src="images/menu/food/cup-cake.png" />
-              <h3>Cup Cakes</h3>
-              <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="food-grid_item">
-              <img alt="" src="images/menu/food/dunut.png" />
-              <h3>Dunuts</h3>
-              <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="food-grid_item">
-              <img alt="" src="images/menu/food/lunch.jpg" />
-              <h3>Lunch</h3>
-              <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
-            <div class="food-grid_item">
-              <img alt="" src="images/menu/food/hot-breakfest.jpg" />
-              <h3>Hot Breakfast</h3>
-              <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
-              <button type="button">Add to Cart</button>
-            </div>
+          <div class="food-grid_item">
+            <img alt="" src="images/menu/food/dunut.png" />
+            <h3>Dunuts</h3>
+            <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
           </div>
-        </section>
+          <div class="food-grid_item">
+            <img alt="" src="images/menu/food/lunch.jpg" />
+            <h3>Lunch</h3>
+            <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
+          </div>
+          <div class="food-grid_item">
+            <img alt="" src="images/menu/food/hot-breakfest.jpg" />
+            <h3>Hot Breakfast</h3>
+            <p>$15.99 <span class="food-grid-item_span">$20.99</span></p>
+            <button type="button">Add to Cart</button>
+          </div>
+        </div>
       </section>
+    </section>
+    <!--  
+   REVIEWS SECTION
+    -->
 
-      <section class="customer"></section>
-      <section class="more"></section>
-    </main>
-    <footer>
-      <section>a</section>
-      <section></section>
-      <section></section>
-      <section></section>
-    </footer>
-  </body>
+
+  </main>
+  <footer>
+  </footer>
+</body>
+
 </html>
